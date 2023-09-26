@@ -1,0 +1,26 @@
+{
+  "name": "bot-jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "bot": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusberlitz/node-bot-jobs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateusberlitz/node-bot-jobs/issues"
+  },
+  "homepage": "https://github.com/mateusberlitz/node-bot-jobs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "prompt": "^1.3.0",
+    "puppeteer": "^21.3.5"
+  }
+}
