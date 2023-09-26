@@ -40,10 +40,10 @@ async function bot(search, additionalPages){
 }
 
 async function runBot (){
-    await prompt.start();
-    const input = await prompt.get(['pages', 'search']);
-    const search = input.search.replace(' ','-').trim().toLowerCase()
-    const pagesInput = Number(input.pages)
+    // await prompt.start();
+    // const input = await prompt.get(['pages', 'search']);
+    const search = ("mídias sociais").replace(' ','-').trim().toLowerCase()
+    const pagesInput = 5
     
     setInterval( function() { bot(search,pagesInput); }, 19000 );
 }
