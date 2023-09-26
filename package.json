@@ -7,7 +7,7 @@
     "node": "18"
   },
   "scripts": {
-    "chrome": "node node_modules/puppeteer/install.js",
+    "chrome": "cd ./node_modules/puppeteer && npm install",
     "dev": "node src/index.js",
     "bot": "node src/bot.js"
   },
