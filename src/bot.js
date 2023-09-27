@@ -11,8 +11,8 @@ async function bot(search, additionalPages){
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
-    await getLinkedinVacancies(page, search, additionalPages);
-    await getWorkanaVacancies(page, search, additionalPages);
+    await getLinkedinVacancies(page, search, 5);
+    await getWorkanaVacancies(page, search, 9);
 
     browser.close();
 }
