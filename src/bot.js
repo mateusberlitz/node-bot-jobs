@@ -27,6 +27,4 @@ async function runBot (){
     bot(search,pagesInput);
 }
 
-runBot();
-
 module.exports = { runBot };
